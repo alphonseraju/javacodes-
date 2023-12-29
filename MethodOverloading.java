@@ -20,9 +20,9 @@ public class MethodOverloading {
 
 	public static void main(String[] args) {
 		MethodOverloading ml=new MethodOverloading();
-		String s = ml.Student("bakhar", 16);
-		String ss = ml.Student("bakhar", 16, "machilipatnam");
-		String sss = ml.Student("bakhar", 16, "machilipatnam", 9110510224l);
+		String s = ml.Student("raju", 23);
+		String ss = ml.Student("raju", 23, "machilipatnam");
+		String sss = ml.Student("raju", 23, "machilipatnam", 9110510224l);
 
 		List<String> list=Arrays.asList(s,ss,sss);
 
